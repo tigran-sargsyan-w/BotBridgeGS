@@ -11,7 +11,6 @@ BotBridgeGS is a Google Apps Script project designed to automate notifications a
 ## File Overview
 - `deploy.gs`: Handles HTTP GET requests for triggering notifications via a web app interface. It processes URL parameters (message and photoUrl) and calls the function to notify admins. It also includes a helper to generate the URL for notifications.
 - `notifier.gs`: Manages the logic for sending messages to Telegram admins, including handling photo attachments and dividing admin notifications into manageable chunks.
-- `sheetUtils.gs`: Contains utility functions for Google Sheets, such as summing the top N largest values in a range, counting occurrences of a specific value, and highlighting important cells based on predefined rules.
 - `triggerHandlers.gs`: Implements example functions and scheduled reminders for specific events like clan expeditions, sending automated notifications on specific days of the week.
 
 ## Example Usage

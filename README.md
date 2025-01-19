@@ -5,7 +5,6 @@ BotBridgeGS is a Google Apps Script project designed to automate notifications a
 - **Automatic Notifications**: Send notifications to Telegram administrators using a custom message and optional photo.
 - **Scheduled Reminders**: Set up scheduled reminders based on various events (e.g., hourly, daily, etc.).
 - **Telegram Integration**: Seamlessly integrates with Telegram groups to notify admins and send multimedia content.
-- **Google Sheets Interaction**: Automates tasks based on Google Sheets data, such as calculating top N values or counting occurrences.
 - **Modular Structure**: Organized into separate files for deployment, notification handling, utilities, and triggers.
 
 ## File Overview
